@@ -4,7 +4,7 @@
 [ext_resource path="res://Hoppy-Days-Assets/GFX/Environment/ground_cake.png" type="Texture" id=2]
 
 [sub_resource type="RectangleShape2D" id=1]
-extents = Vector2( 195.55, 36.0591 )
+extents = Vector2( 109.702, 28.6245 )
 
 [node name="KinematicBody2D" type="KinematicBody2D"]
 script = ExtResource( 1 )
@@ -13,9 +13,10 @@ __meta__ = {
 }
 
 [node name="Sprite" type="Sprite" parent="."]
-position = Vector2( 0.724854, 0.478638 )
+position = Vector2( -69.1866, 11.9187 )
+scale = Vector2( 0.632045, 0.756595 )
 texture = ExtResource( 2 )
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
-position = Vector2( 0.724854, -7.54947 )
+position = Vector2( -67.9153, 7.70395 )
 shape = SubResource( 1 )

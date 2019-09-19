@@ -8,11 +8,8 @@ radius = 1.37964
 height = 1.4027
 
 [node name="Player" type="KinematicBody2D"]
-position = Vector2( 1013.7, -610.833 )
+position = Vector2( 989.346, -619.966 )
 script = ExtResource( 1 )
-__meta__ = {
-"_edit_group_": true
-}
 
 [node name="Sprite" type="Sprite" parent="."]
 position = Vector2( -579.924, 970.076 )
@@ -23,3 +20,10 @@ texture = ExtResource( 2 )
 position = Vector2( -577.873, 968.774 )
 scale = Vector2( 22.1439, 19.747 )
 shape = SubResource( 1 )
+
+[node name="Camera2D" type="Camera2D" parent="."]
+position = Vector2( -471.304, 925.625 )
+current = true
+__meta__ = {
+"_edit_group_": true
+}

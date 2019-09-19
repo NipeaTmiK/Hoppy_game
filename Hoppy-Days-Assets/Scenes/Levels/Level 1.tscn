@@ -8,13 +8,13 @@
 [node name="Level 1" type="Node2D"]
 
 [node name="Player" parent="." instance=ExtResource( 1 )]
-position = Vector2( 1048.62, -714.45 )
+position = Vector2( 994.014, -605.238 )
 
 [node name="KinematicBody2D" parent="." instance=ExtResource( 2 )]
-position = Vector2( 309.472, 492.316 )
+position = Vector2( 461.625, 487.485 )
 
 [node name="KinematicBody2D2" parent="." instance=ExtResource( 3 )]
-position = Vector2( 373.706, 87.4586 )
+position = Vector2( 822.919, 280.668 )
 
 [node name="KinematicBody2D3" parent="." instance=ExtResource( 4 )]
-position = Vector2( 170.628, 167.106 )
+position = Vector2( 627.085, 391.712 )

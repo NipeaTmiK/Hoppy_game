@@ -11,12 +11,13 @@ __meta__ = {
 }
 
 [node name="Sprite" type="Sprite" parent="."]
+position = Vector2( 0, -1.68657 )
 
 [node name="ground_sand_small" type="Sprite" parent="Sprite"]
-position = Vector2( 456.284, 242.218 )
+position = Vector2( 4.28333, -4.02098 )
 scale = Vector2( 0.737449, 0.737449 )
 texture = ExtResource( 1 )
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
-position = Vector2( 453.156, 242.802 )
+position = Vector2( 2.84238, -1.75027 )
 shape = SubResource( 1 )
